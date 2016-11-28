@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banana Club</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family= Raleway " rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+    <style>@import 'https://fonts.googleapis.com/css?family=Raleway:bold, regular, medium';</style>
+</head>
+<header onload="guglielmare()">
+	<div class="contenitore">
+		<div class="row">
+				<div class="col-sm-6">
+                    <a href="#top"><p id="bananaclub">BananaClub</p></a>
+				</div>
+	 			<div class="col-sm-6">
+	 				 <div id="menu">
+                        <a href="works.html"><p id="chis">Works</p></a> 
+	        			<a href="#chi-siamo"><p id="chis">Chi siamo</p></a> 
+                        <a href="#top"><p id="home">Home</p></a>
+	        		</div>
+	 			</div>
+		</div>
+	</div>
+
+<!-- script per animazione header shrink -->
+        <script>
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 1){  
+                $('header').addClass("sticky");
+            }
+            else{
+                $('header').removeClass("sticky");
+                }
+            });
+        </script>
+</header>
+<body id="body">
+	<div id="guglielmo">
+<!-- script per animazione guglielmo shrink -->
+		<script>
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 1){  
+                $('div').addClass("sticky");
+            }
+            else{
+                $('div').removeClass("sticky");
+                }
+            });
+        </script>
+	</div>
+    
+<!-- INIZIO CONTENUTO PAGINA -->
+    <div class="contenitore">
+		<div class="row">
+            <img id="gruppo" src="gruppo2.jpg" width="100%">
+            <h2 id="chi-siamo">Chi siamo</h2><br>
+			<div class="col-sm-6">
+				<div class="box-dx">
+                    <script>
+                       document.getElementById('body').onload = function (){
+                       setTimeout(myFunction, 4000);
+                       }
+                           function myFunction() {
+                           document.getElementById('video-ele').play();
+                           setTimeout(myFunction2, 7000);
+                           }
+                           function myFunction2() {
+                           document.getElementById('video-nico').play();
+                           setTimeout(myFunction3, 8000);
+                           }
+                           function myFunction3() {
+                           document.getElementById('video-sara').play();
+                           setTimeout(myFunction4, 7000);
+                           }
+                           function myFunction4() {
+                           document.getElementById('video-pask').play();
+                           setTimeout(myFunction5, 6000);
+                           }
+                           function myFunction5() {
+                           document.getElementById('video-matte').play();
+                           }
+                   </script>
+					<video id="video-ele"> 
+                        <source src="ele2.webm" type="video/webm">
+                    </video>
+                    <h3>Elena Filippi</h3>
+                    <p class="descr">Vengo da Genova e ho 21 anni. Mi piacciono molto i cartoni e mangiare il te coi biscotti la mattina. Spesso mi metto a disegnare, adoro azzerare la mia mente mentre la matita scorre.</p>
+                    <p class="email">elenafilippi95e@gmail.com</p>
+				</div>
+			</div>
+ 			<div class="col-sm-6">
+ 				<div class="box-sx">
+ 					<video id="video-sara"> 
+                        <source src="sara2.webm" type="video/webm">
+                    </video>
+                    <h3>Sara Lavazza</h3>
+                    <p class="descr">Sono nata a Milano, adoro l'ambiente, le cose ecologiche e girare in bici per la mia città. Mi piace entrare nelle gallerie, anche quelle d’arte.</p>
+                    <p class="email">sara.lavazza@mail.polimi.com</p>
+ 				</div>
+ 			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="box-dx">
+					<video id="video-matte"> 
+                        <source src="matte2.webm" type="video/webm">
+                    </video>
+                    <h3>Matteo Maggi</h3>
+                    <p class="descr">Sono un giovane ragazzo di Civitavecchia con la passione per il design e le fiabe sonore. A volte comincio ad aprire una pagina di Wikipedia dopo l’altra e perdo la cognizione del tempo. Credo molto nell’Unione Europea.</p>
+                    <p class="email">mattmaggi95@gmail.com</p>
+				</div>
+			</div>
+ 			<div class="col-sm-6">
+ 				<div class="box-sx">
+ 					<video id="video-nico"> 
+                        <source src="nico2.webm" type="video/webm">
+                    </video>
+                    <h3>Nicolò Marchetti</h3>
+                    <p class="descr">Ho 21 anni e vengo da Pegognaga, in provincia di Mantova. Mi interessano molto la storia, la musica e ho la barba bionda come Lancillotto.</p>
+                    <p class="email">nicolomarchetti@icloud.com</p>
+ 				</div>
+ 			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="box-dx">
+					<video id="video-pask"> 
+                        <source src="pask2.webm" type="video/webm">
+                    </video>
+                    <h3>Pasquale Morelli</h3>
+                    <p class="descr">Vengo dal Molise, precisamente da Portocannone, dove ho lasciato la mia famiglia e il mio Labrador, Buffon. Sono un arbitro sottopagato ma lo faccio per le persone bisognose.</p>
+                    <p class="email">pasq.morelli@gmail.com</p>
+				</div>
+			</div>
+ 			<!-- <div class="col-sm-6">
+ 				<div class="box-sx">
+ 					
+ 			    </div>
+            </div> -->  
+        </div>
+	</div>
+</body>
+<footer>
+    <!-- <img id="banana" src="banana3.png"> -->
+    <p>
+        <a href="#top">Home</a> | <a href="#chi-siamo">Chi siamo</a> | <a href="works.html">Works</a>
+    </p>
+</footer>
+</html>
