@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banana Club - Works</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family= Raleway " rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+    <style>@import 'https://fonts.googleapis.com/css?family=Raleway:bold, regular, medium';</style>
+</head>
+<header>
+	<div class="contenitore">
+		<div class="row">
+				<div class="col-sm-6">
+                    <a href="https://gruppovite.github.io/sito_web/"><p id="bananaclub">BananaClub</p></a>
+				</div>
+	 			<div class="col-sm-6">
+	 				 <div id="menu">
+                        <a href="#top"><p id="chis">Works</p></a>
+	        			<a href="https://gruppovite.github.io/sito_web/#chi-siamo"><p id="chis">Chi siamo</p></a>
+                        <a href="https://gruppovite.github.io/sito_web/"><p id="home">Home</p></a>
+	        		</div>
+
+	</div>
+<!-- script per animazione header shrink -->
+        <script>
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 1){
+                $('header').addClass("sticky");
+            }
+            else{
+                $('header').removeClass("sticky");
+                }
+            });
+        </script>
+</header>
+<body id="body">
+	<div id="guglielmo">
+<!-- script per animazione guglielmo shrink -->
+		<script>
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 1){
+                $('div').addClass("sticky");
+            }
+            else{
+                $('div').removeClass("sticky");
+                }
+            });
+        </script>
+	</div>
+
+<!-- INIZIO CONTENUTO PAGINA -->
+
+	<div class="contenitore">
+		<div class="row">
+
+			<!-- Embed presentazioni -->
+
+				<div class="col-sm-6">
+          <iframe src="https://player.vimeo.com/video/193446207"  class="videosopra" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p><a class="linkworks" href="https://vimeo.com/193446207">La Vite - A Roviza Story</a></p>
+				</div>
+
+				<div class="col-sm-6">
+          <iframe src="https://player.vimeo.com/video/193446360" margin-top="5vW" class="videosopra" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p><a class="linkworks" href="https://vimeo.com/193446360">Tre fratelli, tre strade</a> </p>
+        </div>
+    </div>
+		<div class="row">
+			<div class="col-sm-6">
+				<iframe src="https://player.vimeo.com/video/192183924" class="altrivideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<p><a class="linkworks" href="https://vimeo.com/192183924">Roviza - Brand Identity</a> </p>
+			</div>
+			</div>
+			<!-- Fine Embed presentazioni -->
+</body>
+<footer>
+    <!-- <img id="banana" src="banana3.png"> -->
+    <p>
+        <a href="https://gruppovite.github.io/sito_web/">Home</a> | <a href="https://gruppovite.github.io/sito_web/#chi-siamo">Chi siamo</a> | <a href="#top">Works</a>
+    </p>
+</footer>
+</html>

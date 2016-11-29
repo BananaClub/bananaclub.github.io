@@ -82,13 +82,22 @@ body {
 	padding-bottom: 3vw;
 }
 
-#terzovideo {
+.videosopra {
 
-  width: 33.5vW;
-  height: 19vW;
-  padding-right: 2vw;
-  padding-left: 2vW;
-  padding-top: 2vw;
+  width: 33.5vw;
+  height: 19vw;
+  margin-top: 3vw;
+}
+
+.altrivideo {
+
+  width: 33.5vw;
+  height: 19vw;
+}
+
+.immaginiarduino {
+
+  width : 15vw;
 }
 
 h2 {
@@ -101,6 +110,31 @@ h2 {
 
 h3 {
 	font-weight: 500;
+}
+
+span {
+
+  font-weight: bold;
+
+}
+
+.linkworks {
+
+  color: black;
+  font-weight: bold;
+  font-size: 13pt;
+  background-color: #FFD600;
+}
+
+.downloadlinks {
+
+  color: black;
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+a.linkworks:hover {
+    background-color: black;
 }
 
 .email {
@@ -158,7 +192,7 @@ footer p {
 #russialogo {
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-top: 
+  margin-top:
 }
 
 #poster {
@@ -176,8 +210,21 @@ footer p {
   width: 30vw;
   margin-top: 20px;
 }
+
+#bananasfondo {
+
+  width : 70%;
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+  margin-left: 10vw;
+}
+
+#contenitorescritte {
+
+  margin-top: 22vW
+}
 /*
-pasqmorelli [9:57 PM]  
+pasqmorelli [9:57 PM]
 #bananaclub {
    display: block;
    float: left;
