@@ -96,7 +96,7 @@ body {
 }
 
 .immaginiarduino {
-
+  margin-bottom: 11pt;
   width : 15vw;
 }
 
@@ -122,16 +122,18 @@ span {
   padding-left: 2px;
   padding-right: 2px;
   color: #212121;
-  font-weight: bold;
-  font-size: 13pt;
+  font-weight: normal;
+  font-size: 15pt;
   background-color: #FFD600;
 }
 
 .downloadlinks {
-
-  color: black;
-  font-weight: bold;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #212121;
+  font-weight: normal;
   font-size: 11pt;
+  background-color: #FFD600;
 }
 
 a.linkworks:hover {
@@ -148,10 +150,20 @@ a.linkworks:active {
     padding-left: 5px;
     padding-right: 5px;
     float: left;
-    font-size: 13pt;
-    font-weight: 500;
+    font-size: 11pt;
+    font-weight: bold;
     background-color: #FFD600;
     color: #212121;
+}
+
+a.email:hover {
+    background-color: #212121;
+    text-decoration: none;
+}
+
+a.email:active {
+    color: #212121;
+    text-decoration: none;
 }
 
 .descr{
@@ -183,6 +195,10 @@ a:hover {
 
 a:active {
     color: #FFD600;
+    text-decoration: none;
+}
+
+a:visited {
     text-decoration: none;
 }
 
