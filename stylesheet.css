@@ -119,8 +119,9 @@ span {
 }
 
 .linkworks {
-
-  color: black;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #212121;
   font-weight: bold;
   font-size: 13pt;
   background-color: #FFD600;
@@ -134,7 +135,13 @@ span {
 }
 
 a.linkworks:hover {
-    background-color: black;
+    background-color: #212121;
+    text-decoration: none;
+}
+
+a.linkworks:active {
+    color: #212121;
+    text-decoration: none;
 }
 
 .email {
