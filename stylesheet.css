@@ -208,6 +208,12 @@ footer p {
     color: white;
 }
 
+.tit-works {
+  float: left;
+  background-color: #212121;
+  color: #FFD600;
+}
+
 #murmy {
   margin-top: 3vW;
 }
