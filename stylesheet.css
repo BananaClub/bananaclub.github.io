@@ -126,6 +126,13 @@ span {
   background-color: #FFD600;
 }
 
+.downloadlinks {
+
+  color: black;
+  font-weight: bold;
+  font-size: 11pt;
+}
+
 a.linkworks:hover {
     background-color: black;
 }
